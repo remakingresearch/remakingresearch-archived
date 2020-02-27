@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    {% capture sitedescription %}{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}{% endcapture %}
+    <meta name="description" content="{{ site.description }}">
+    <meta name="twitter:title" content="{{ site.title }}">
+    <meta name="twitter:site" content="@_ournetworks">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:description" content="{{ site.description }}">
+    <meta name="twitter:image" content="{{ site.social_image | prepend: site.url }}">
+    <meta property="og:title" content="{{ site.title }}">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="{{ site.url }}">
+    <meta property="og:description" content="{{ site.description }}">
+    <meta property="og:image" content="{{ site.social_image | prepend: site.url }}">
+    
+    <meta name="robots" content="index, follow">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="author" content="Remaking research collective">
+    
+    <link rel="stylesheet" href="/css/main.css?{{site.time | date: '%s%N'}}">
+    <link rel="stylesheet" href="css/spectre.min.css">
+    <link rel="stylesheet" href="css/spectre-icons.min.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.1/js/all.js"></script>
+    <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.url }}">
+  </head>  
+  <body>
+    <main>
+      {{ content }}
+    </main>
+  </body>
+</html>
