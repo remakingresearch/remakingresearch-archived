@@ -28,9 +28,11 @@
     <script defer src="https://use.fontawesome.com/releases/v5.0.1/js/all.js"></script>
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.url }}">
   </head>  
-  <body>
+  <body>    
+    {% include nav.html %}
     <main>
       {{ content }}
     </main>
+    {% include footer.html %}
   </body>
 </html>
