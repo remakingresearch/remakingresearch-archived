@@ -1,0 +1,27 @@
+- organizerID: alpha
+  name: "Alpha"
+  bio: >-
+    Placeholder
+  link: "https://example.com"
+  twitter: example.com
+
+- organizerID: beta
+  name: "Beta"
+  bio: >-
+    Placeholder
+  link: "https://example.com"
+  twitter: example.com
+
+- organizerID: charlie
+  name: "Charlie"
+  bio: >-
+    Placeholder
+  link: "https://example.com"
+  twitter: example.com
+
+- organizerID: delta
+  name: "Delta"
+  bio: >-
+    Placeholder
+  link: "https://example.com"
+  twitter: example.com
