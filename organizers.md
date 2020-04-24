@@ -44,5 +44,3 @@ Anna's research is concerned with the notion of Gramsci's cultural hegemony and 
 
   </div>
 </div>
-
-

@@ -1,0 +1,15 @@
+<div class="card">
+  <div class="card-header">
+    <div class="card-title h5">{{ organizer.name }}</div>
+  </div>
+  {% if organizer.bio %}<div class="card-body">
+    {{ organizer.bio }}
+  </div>{% endif %}
+  {% if organizer.link or organizer.twitter or organizer.github %}<div class="card-footer">
+    <ul class="flex flex-wrap">
+     {%- if organizer.link -%}<li class="btn btn-primary btn-sm" ><a href="https://{{ organizer.link }}" target="_blank" rel="noopener" data-proofer-ignore>{% include icons/link.svg %}&nbsp;{{ organizer.link }}</a></li>{%- endif -%}
+     {%- if organizer.twitter -%}<li class="btn btn-primary btn-sm" ><a href="https://twitter.com/{{ organizer.twitter }}" target="_blank" rel="noopener">{% include icons/twitter.svg %}&nbsp;{{ organizer.twitter }}</a></li>{%- endif -%}
+     {%- if organizer.github -%}<li class="btn btn-primary btn-sm" "><a href="https://github.com/{{ organizer.github }}" target="_blank" rel="noopener">{% include icons/github.svg %}&nbsp;{{ organizer.github }}</a></li>{%- endif -%}
+    </ul>
+  </div>{% endif %}
+</div>
