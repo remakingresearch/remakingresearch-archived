@@ -1,1 +1,134 @@
 /*! Based off of Spectre.css Docs | MIT License | github.com/picturepan2/spectre */
+
+.remake-navbar {
+  height: 3.8rem;
+  position: fixed;
+  right: 0;
+  top: 0;
+  z-index: 200;
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);
+  left: 0;
+}
+
+.remake-navbar .btn {
+  right: 1.5rem;
+  top: 1rem;
+}
+
+.remake-brand {
+  color: $brand-color;
+  left: 1.5rem;
+  position: fixed;
+  top: .85rem;
+}
+
+.remake-brand .remake-logo {
+  align-items: center;
+  border-radius: .3rem;
+  display: inline-flex;
+  display: -ms-inline-flexbox;
+  -ms-flex-align: center;
+  height: 2rem;
+  padding: .2rem;
+  width: auto;
+}
+
+.remake-brand .remake-logo:focus,
+.remake-brand .remake-logo:hover {
+  text-decoration: none;
+}
+
+.remake-brand .remake-logo img {
+  display: inline;
+  height: auto;
+  width: 1rem;
+  filter: invert(34%) sepia(5%) saturate(5055%) hue-rotate(188deg) brightness(97%) contrast(67%);
+}
+
+.remake-brand .remake-logo h2 {
+  display: inline;
+  font-size: .8rem;
+  font-weight: 700;
+  line-height: 1.5rem;
+  margin-bottom: 0;
+  margin-left: .5rem;
+  margin-right: .5rem;
+}
+
+/* Hero section in splash */
+
+.hero-image {
+    background-image: url("../img/x.jpg");
+    background-position: center top;
+    height:98vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    box-shadow: inset 0 0 0 1000px rgba($white,0.7);
+}
+
+.grid-hero {
+  padding-bottom: 2rem;
+  padding-top: 6rem;
+}
+
+.grid-hero h1 {
+  color: #50596c;
+  font-size: 1.6rem;
+  margin-bottom: 1.5rem;
+}
+
+.grid-hero h2 {
+  color: #5b657a;
+  font-size: .9rem;
+  font-weight: 400;
+  line-height: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.grid-hero h2 u {
+  border-bottom: .1rem solid currentColor;
+  padding-bottom: .05rem;
+  text-decoration: none;
+}
+
+.grid-hero .card {
+  background: none;
+  border: 0;
+  color: #727e96;
+  padding: .5rem;
+}
+
+.grid-hero .card .card-title {
+  color: $brand-color;
+  font-size: .9rem;
+  margin-bottom: 0;
+}
+
+.section-hero {
+  padding: 1rem .5rem;
+}
+
+.section-hero .remark-brand {
+  position: absolute;
+  top: .85rem;
+}
+
+.section-hero .remark-brand h2 {
+  color: $brand-color;
+}
+
+.section-hero .column {
+  padding: .4rem;
+}
+
+.section-footer {
+  padding: 1.8rem .75rem 1rem .75rem;
+  position: relative;
+  z-index: 200;
+}
+
+.section-footer a {
+  color: $purple-pineapple;
+}
