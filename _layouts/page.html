@@ -1,15 +1,12 @@
 ---
 layout: default
 ---
-<div class="container {% if page.fullWidth %}container-full-width{% endif%}">
-  <article class="post">
-    <header>
-      <h1 class="post-title fw-normal heading-2 color-accent {{ page.titleClasses }}">{{ page.title }}</h1>
-    </header>
+<div class="container grid-lg">
+  <header>
+    <h1 class="post mt-6 fw-normal heading-2 color-accent {{ page.titleClasses }}">{{ page.title }}</h1>
+  </header>
 
-    <div class="post-content">
-      {{ content }}
-    </div>
-
-  </article>
+  <div class="content mt-4">
+    {{ content }}
+  </div>
 </div>
