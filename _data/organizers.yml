@@ -1,27 +1,25 @@
-- organizerID: alpha
-  name: "Alpha"
+- organizerID: anka
+  name: "Anna Adamowicz"
   bio: >-
-    Placeholder
+    is a PhD student at the Philosophy Faculty, Adam Mickiewicz University in Poznan with professional experience as an educator, curator, and coordinator. Anka is also involved in the antifascist and feminist grassroots movements and a member of the Worker’s Initiative Union. Her thesis, Counter-hegemony and material disobedience, studies cultural hegemony, resistance and infrastructure using Gramsci's concept of cultural hegemony and counter-hegemonic potentials among both the social movements and their infrastructures. Using the categories of agency and performativity, this work looks at the material disobiedence and the political power that is expressed by objects and infrastructure.
+
+- organizerID: curtis
+  name: "Curtis McCord"
+  bio: >-
+    is a PhD Candidate at the University of Toronto Faculty of Information, with an undergraduate background in Philosophy and Political Science. Work in his Master's degree examined the ways in which design features of a government online consultation system transcoded assummptions about ideal citizenship performances and the relation between the state and citizens. Here, discourse analysis and interviews with public servants was used to understand the varying purposes and reasoning of the system's design, but how this vision can become inflected with he worldviews of its developers, and the sponsoring organization. Owing in no small part to the varied nature of his committee and colleagues, this work is situated at the intersection between political theory, communications, critical theory, systems thinking, and science and technology studies.
   link: "https://example.com"
   twitter: example.com
 
-- organizerID: beta
-  name: "Beta"
+- organizerID: dawn
+  name: "Dawn Walker"
   bio: >-
-    Placeholder
+    is a researcher and PhD candidate at the University of Toronto. Her focus is on the values driving web decentralization projects and the possibilities for social transformation (or pitfalls) posed by these new technologies. Her dissertation traces the networked contingency "decentralization" arises out of at a moment when technologists are using it as a sense-making frame for building and using alternative structures. In addition, she co-organizes Our Networks, an annual conference about the past, present, and future of building community-owned infrastructure, and has been a member of grassroots advocacy and technology projects including the Environmental Data & Governance Initiative (EDGI), Data Together, and Toronto Mesh. A keen urban agriculturalist, Dawn would rather be in the garden.
   link: "https://example.com"
   twitter: example.com
 
-- organizerID: charlie
-  name: "Charlie"
+- organizerID: zack
+  name: "Zack Batist"
   bio: >-
-    Placeholder
-  link: "https://example.com"
-  twitter: example.com
-
-- organizerID: delta
-  name: "Delta"
-  bio: >-
-    Placeholder
+    is a PhD candidate at the University of Toronto's Faculty of Information with a background in prehistoric archaeology. His prior work applied network analysis and geospatial methods to investigate patterns of prehistoric trade and exchange in the eastern Mediterranean, southwest Asia and Anatolia. He has a keen interest in public perceptions of archaeology, and the representation of archaeology in science fiction, popular media and public policy. This aligns with his broader interests in science and technology studies, digital media studies, internet and software studies, among other related fields that interrogate the roles of different kinds of knowledge in our lives.
   link: "https://example.com"
   twitter: example.com
